@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Dauda Abdulkadir, web developer working with PHP, MySQL, Bootstrap and Google Apps Script.">
+  <title>Dauda Abdulkadir | Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Dauda Abdulkadir home"><span class="brand-mark">DA</span><span>Dauda Abdulkadir</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact" class="nav-cta">Contact me <span>↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> OPEN TO REMOTE OPPORTUNITIES</p>
+          <h1>I build useful<br><span class="accent">web applications.</span></h1>
+          <p class="hero-intro">I'm Dauda Abdulkadir, a web developer from Kaduna, Nigeria. I work with PHP, MySQL, Bootstrap and Google Apps Script to build practical tools and web experiences.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my work <span>↓</span></a>
+            <a class="button button-secondary" href="#contact">Let's connect <span>↗</span></a>
+          </div>
+          <div class="hero-meta"><span>📍 Kaduna, Nigeria</span><span>🎓 BSc Computer Science, 2024</span></div>
+        </div>
+        <div class="hero-visual" aria-label="Developer portfolio illustration">
+          <div class="visual-glow"></div>
+          <div class="code-card">
+            <div class="code-top"><div class="window-dots"><i></i><i></i><i></i></div><span>developer.php</span><span class="code-live">●</span></div>
+            <div class="code-body">
+              <p><span class="line-no">01</span> <span class="code-purple">&lt;?php</span></p>
+              <p><span class="line-no">02</span> <span class="code-blue">$developer</span> = [</p>
+              <p><span class="line-no">03</span> &nbsp; <span class="code-green">'name'</span> =&gt; <span class="code-yellow">'Dauda'</span>,</p>
+              <p><span class="line-no">04</span> &nbsp; <span class="code-green">'stack'</span> =&gt; [</p>
+              <p><span class="line-no">05</span> &nbsp;&nbsp; <span class="code-yellow">'PHP'</span>, <span class="code-yellow">'MySQL'</span>,</p>
+              <p><span class="line-no">06</span> &nbsp;&nbsp; <span class="code-yellow">'Apps Script'</span></p>
+              <p><span class="line-no">07</span> &nbsp; ],</p>
+              <p><span class="line-no">08</span> &nbsp; <span class="code-green">'mindset'</span> =&gt; <span class="code-yellow">'Keep learning'</span></p>
+              <p><span class="line-no">09</span> ];</p>
+              <p><span class="line-no">10</span> <span class="code-purple">?&gt;</span><span class="cursor"></span></p>
+            </div>
+          </div>
+          <div class="floating-chip chip-one"><span>✦</span> Problem solver</div>
+          <div class="floating-chip chip-two"><span>⌘</span> Build · Test · Improve</div>
+          <div class="visual-index">PORTFOLIO / 2026</div>
+        </div>
+      </div>
+      <div class="container tech-strip"><span>TOOLS I WORK WITH</span><div><b>PHP</b><i></i><b>MySQL</b><i></i><b>Bootstrap 5</b><i></i><b>JavaScript</b><i></i><b>Google Apps Script</b></div></div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container two-col">
+        <div><p class="eyebrow">01 / ABOUT ME</p><h2>Practical solutions.<br><span class="muted">Thoughtful development.</span></h2></div>
+        <div class="about-text">
+          <p>I’m a Computer Science graduate from Ahmadu Bello University, Zaria, with hands-on web development experience. I enjoy turning operational needs into clear, usable digital tools.</p>
+          <p>My project experience includes an NYSC Edo data capture and verification platform developed with Google Apps Script, a completed NGO website, and a school result management system currently in development.</p>
+          <div class="fact-row"><div><strong>2021</strong><span>Started at IQF-Tech</span></div><div><strong>3</strong><span>Featured projects</span></div><div><strong>BSc</strong><span>Computer Science</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">02 / TOOLKIT</p><h2>Skills & technologies</h2></div><p class="section-note">The tools I use to build, connect and improve web applications.</p></div>
+        <div class="skills-grid">
+          <article class="skill-card"><div class="skill-icon">&lt;/&gt;</div><h3>Web development</h3><p>Building responsive interfaces and application features.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Bootstrap 5</span></div></article>
+          <article class="skill-card"><div class="skill-icon">⌘</div><h3>Backend & data</h3><p>Server-side application logic and relational data storage.</p><div class="tags"><span>PHP</span><span>MySQL</span></div></article>
+          <article class="skill-card"><div class="skill-icon">✳</div><h3>Workflow automation</h3><p>Automating spreadsheet-based workflows and data handling.</p><div class="tags"><span>Google Apps Script</span><span>Google Sheets</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">03 / SELECTED WORK</p><h2>Projects that solve problems</h2></div><p class="section-note">A selection of practical projects I have built or am actively developing.</p></div>
+        <div class="projects-grid">
+          <article class="project-card project-featured">
+            <div class="project-art art-ny"><div class="art-label">DATA WORKFLOW</div><div class="mini-dashboard"><div class="mini-top"><span></span><span></span><span></span></div><div class="mini-content"><div class="mini-sidebar"></div><div class="mini-main"><i></i><i></i><i></i><div class="mini-chart"></div></div></div></div><div class="art-number">01</div></div>
+            <div class="project-info"><div class="project-kicker"><span class="project-status status-built">INDEPENDENT PROJECT</span><span>Google Apps Script</span></div><h3>NYSC Edo Data Capture & Verification Platform</h3><p>An independently developed platform to support data capture and verification workflows for the NYSC Edo project.</p><div class="project-tags"><span>Google Apps Script</span><span>Google Sheets</span></div><p class="project-footnote">Live demo and screenshots can be added when available.</p></div>
+          </article>
+          <article class="project-card">
+            <div class="project-art art-ngo"><div class="art-label">COMMUNITY & SUPPORT</div><div class="ngo-mock"><div class="ngo-nav"><b>IBN QAYYIM</b><span>About&nbsp;&nbsp; Programs&nbsp;&nbsp; Contact</span></div><div class="ngo-hero"><small>EDUCATION · HUMANITARIAN SUPPORT</small><strong>Empowering lives<br>through service.</strong><i></i></div></div><div class="art-number">02</div></div>
+            <div class="project-info"><div class="project-kicker"><span class="project-status status-complete">COMPLETED</span><span>PHP / MySQL</span></div><h3>Ibn Qayyim Foundation NGO Website</h3><p>A website for an education and humanitarian support foundation, built with a PHP/MySQL-based stack and Bootstrap 5/AdminLTE interface components.</p><div class="project-tags"><span>PHP</span><span>MySQL</span><span>Bootstrap 5</span><span>AdminLTE</span></div><p class="project-footnote">Add the live website URL after deployment, if publicly accessible.</p></div>
+          </article>
+          <article class="project-card">
+            <div class="project-art art-school"><div class="art-label">EDUCATION TECHNOLOGY</div><div class="school-mock"><div class="school-head"><span>RESULTS OVERVIEW</span><b>Term summary</b></div><div class="score-row"><span></span><i></i><b></b></div><div class="score-row"><span></span><i></i><b></b></div><div class="score-row"><span></span><i></i><b></b></div></div><div class="art-number">03</div></div>
+            <div class="project-info"><div class="project-kicker"><span class="project-status status-progress">IN DEVELOPMENT</span><span>Web application</span></div><h3>School Result Management System</h3><p>A developing school administration and result-processing application, with work on student registration, class administration and subject assignment.</p><div class="project-tags"><span>PHP</span><span>MySQL</span><span>Web development</span></div><p class="project-footnote">Features and technology details can be refined as development progresses.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section experience-section">
+      <div class="container two-col">
+        <div><p class="eyebrow">04 / EXPERIENCE & EDUCATION</p><h2>Learning by<br><span class="muted">building real things.</span></h2></div>
+        <div class="timeline">
+          <article><span class="timeline-dot"></span><p class="timeline-date">2021 — PRESENT</p><h3>Web Developer · IQF-Tech</h3><p>Web development experience working with frontend and backend technologies. Update this section with your exact responsibilities and achievements before publishing.</p></article>
+          <article><span class="timeline-dot"></span><p class="timeline-date">2024</p><h3>BSc Computer Science</h3><p>Ahmadu Bello University, Zaria, Nigeria.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-box">
+        <div><p class="eyebrow">05 / GET IN TOUCH</p><h2>Have a project or<br>an opportunity?</h2><p class="contact-copy">I’m open to remote, freelance, part-time and full-time opportunities in web development.</p></div>
+        <div class="contact-actions"><a class="button button-light" href="mailto:daudaabdulkadir12@gmail.com">Email me <span>↗</span></a><a class="contact-link" href="https://wa.me/2347068448500" target="_blank" rel="noopener noreferrer">Message on WhatsApp ↗</a><span class="contact-email">daudaabdulkadir12@gmail.com</span></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-inner"><a class="brand footer-brand" href="#home"><span class="brand-mark">DA</span><span>Dauda Abdulkadir</span></a><p>Built with care · Kaduna, Nigeria</p><a href="#home" class="back-top">Back to top ↑</a></div><div class="container copyright">© <span id="year"></span> Dauda Abdulkadir. All rights reserved.</div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
